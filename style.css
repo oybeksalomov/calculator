@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+p,
+button {
+  font-size: 16px;
+}
+#mainSection {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(59,70,100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calcBox {
+  width: 100%;
+  max-width: 50rem;
+}
+.calcInput {
+  width: 100%;
+  background-color: #181F32;
+  color: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  text-align: end;
+  margin-bottom: 2rem;
+}
+.calcInput p {
+  font-size: 5rem;
+  font-weight: 700;
+}
+/* Calculation operation*/
+
+.calcOperations {
+  width: 100%;
+  background-color: #252D44;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.calcButtonsBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  grid-auto-rows: minmax(auto);
+}
+.buttonBox {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #B4A49C;
+}
+.buttonBox button {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 4rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-color: #EAE3DB;
+  color: #444959;
+  transform: translateY(-0.3rem);
+  border: none;
+}
+
