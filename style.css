@@ -23,16 +23,16 @@ button {
 }
 .calcInput {
   width: 100%;
+  height: 110px;
   background-color: #181F32;
   color: #fff;
   padding: 2.5rem;
   border-radius: 1rem;
   text-align: end;
   margin-bottom: 2rem;
-}
-.calcInput p {
   font-size: 5rem;
   font-weight: 700;
+  overflow: hidden;
 }
 /* Calculation operation*/
 
@@ -63,5 +63,40 @@ button {
   color: #444959;
   transform: translateY(-0.3rem);
   border: none;
+  cursor: pointer;
 }
-
+.calcButtonsBox2 {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.buttonBox2 {
+  width: 100%;
+  border-radius: 1rem;
+}
+.calcButtonsBox2 .buttonBox2:first-child {
+  background-color: #4a5571;
+}
+.calcButtonsBox2 .buttonBox2:last-child {
+  background-color: #7d271d;
+}
+.buttonBox2 button {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 4rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  color: #EAE3DB;
+  transform: translateY(-0.3rem);
+  border: none;
+  cursor: pointer;
+}
+.calcButtonsBox2 .buttonBox2:first-child button {
+  background-color: #647299;
+}
+.calcButtonsBox2 .buttonBox2:last-child button {
+  background-color: #D13F30;
+}
+button:active {
+  transform: translateY(0);
+}
