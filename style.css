@@ -16,6 +16,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 .calcBox {
   width: 100%;
@@ -23,7 +24,7 @@ button {
 }
 .calcInput {
   width: 100%;
-  height: 110px;
+  height: 11rem;
   background-color: #181F32;
   color: #fff;
   padding: 2.5rem;

@@ -44,7 +44,7 @@ const calculate = function() {
         result = Number(firstValue) - Number(secondValue)
     } else if(operatorType === '/') {
         result = Number(firstValue) / Number(secondValue)
-    } else if(operatorType === '*') {
+    } else if(operatorType === 'x') {
         result = Number(firstValue) * Number(secondValue)
     }
     calcInput.textContent = result
